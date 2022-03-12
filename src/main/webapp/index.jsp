@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div align="center" class="container">
-		<form action="pessoa" method="post">
+		<form action="cliente" method="post">
 			<p class="title">
 				<b>Cliente</b>
 			</p>
@@ -46,7 +46,7 @@
 				<tr>
 					<td>
 						<input type="date" id="nascimento" name="nascimento"
-						placeholder="Data de Nascimento" required="required">
+						placeholder="Data de Nascimento">
 					</td>
 				</tr>
 				<tr>

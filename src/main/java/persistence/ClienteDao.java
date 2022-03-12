@@ -26,10 +26,10 @@ public class ClienteDao {
 		cs.setString(4, cl.getEmail());
 		cs.setDouble(5, cl.getLimite());
 		cs.setString(6, cl.getNascimento().toString());
-		cs.registerOutParameter(6, Types.VARCHAR);
+		cs.registerOutParameter(7, Types.VARCHAR);
 		cs.execute();
 		
-		String saida = cs.getString(6);
+		String saida = cs.getString(7);
 		cs.close();
 		c.close();
 		
